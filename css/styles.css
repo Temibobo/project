@@ -529,8 +529,10 @@ input[type="checkbox"] {
 }
 
 .header .h1-large {
-  margin-bottom: 1.75rem;
-  color: #ffffff;
+  margin-bottom: 1rem;
+  color: #f56a6a;
+  font-size: 2rem;
+  font-family: 'Rubik Microbe', cursive;
 }
 
 .header .btn-solid-lg:hover {
