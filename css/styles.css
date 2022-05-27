@@ -173,21 +173,23 @@ a:hover {
 }
 
 .btn-solid-lg {
+
+  border: 1px solid white;
+      border-radius: 5px;
+    background-color: #031C32;
   display: inline-block;
-  padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #0b36a8;
-  background-color: #0b36a8;
-  color: #ffffff;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 0;
-  text-decoration: none;
-  transition: all 0.2s;
+    padding: 1.5rem 2rem;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
+  
 }
 
 .btn-solid-lg:hover {
   background-color: transparent;
-  color: #0b36a8; /* needs to stay here because of the color property of a tag */
+  color: white; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -211,20 +213,21 @@ a:hover {
 }
 
 .btn-outline-lg {
-  display: inline-block;
-  padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-  border: 1px solid #24262a;
-  background-color: transparent;
-  color: #24262a;
-  font-weight: 600;
-  font-size: 0.875rem;
-  line-height: 0;
-  text-decoration: none;
-  transition: all 0.2s;
+    display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffff;
+    font-weight: 600;
+    font-size: 0.875rem;
+    line-height: 0;
+    text-decoration: none;
+    transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-  background-color: #0f3646;
+  background-color: #031C32;
   color: #ffffff;
   text-decoration: none;
 }
@@ -387,7 +390,7 @@ input[type="checkbox"] {
 }
 
 .navbar .logo-image img {
-  width: 118px;
+  width: 108px;
   height: 36px;
 }
 
@@ -430,7 +433,7 @@ input[type="checkbox"] {
 .navbar .nav-item .nav-link {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  color: #82e5f7;
+  color: white;
   text-decoration: none;
   transition: all 0.2s ease;
 }
@@ -533,27 +536,35 @@ input[type="checkbox"] {
  .intro {
   margin-bottom: 1rem;
   color: #ffffff;
-  /* font-size: 20px; */
+  font-size: 40px;
   font-family: 'Source Sans Pro', sans-serif;
+  margin: auto;
   
 }
 
 
+.col-sm-6 {
+  text-align: center;
+}
 
 
 
 /* New trial for Frontend text */
 
 
-.move{
+.move {
   
 width: 100%;
 height: 100%;
-background-image: url("../images/Temmypics.jpg");
+background-image: url("../images/temmytope.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
+
 }
+/* .move .logo-image{
+  text-align: center; */
+/* } */
   
 
 
@@ -883,8 +894,8 @@ background-position: center center;
 /*     Footer     */
 /******************/
 .footer {
-  padding-top: 6.25rem;
-  padding-bottom: 2rem;
+  /* padding-top: 6.25rem;
+  padding-bottom: 2rem; */
   background-color: #24262a;
   text-align: center;
 }
@@ -924,7 +935,7 @@ background-position: center center;
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #24262a;
+  background-color: #031C32;
   text-align: center;
 }
 
@@ -1069,7 +1080,7 @@ a:hover.back-to-top {
 
   /* Navigation */
   .navbar {
-    padding-top: 1.75rem;
+    /* padding-top: 1.75rem; */
     background-color: transparent;
     box-shadow: none;
     transition: all 0.2s;
@@ -1106,8 +1117,8 @@ a:hover.back-to-top {
   }
 
   .navbar .nav-item .nav-link {
-    padding-right: 0.625rem;
-    padding-left: 0.625rem;
+    padding-right: 1.825rem;
+    padding-left: 1.825rem;
   }
 
   .navbar .dropdown-menu {
@@ -1227,7 +1238,7 @@ a:hover.back-to-top {
   /* General Styles */
   .h1-large {
     font-size: 20px;
-    line-height: 2rem;
+    line-height: 3rem;
   }
   /* end of general styles */
 
