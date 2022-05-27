@@ -538,33 +538,22 @@ input[type="checkbox"] {
   
 }
 
-/* .col-sm-6 :nth-child(2) {
-  background: url(../images/temmytope.jpg) center no-repeat ;
-  background-size: ;
-  background-color: red; */
-  
 
-}
-/* 
-.col-lg-6{
-  background-color: aqua;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  padding-top: 18.25rem;
-    padding-bottom: 17.25rem;
-}
+
+
 
 /* New trial for Frontend text */
-/* .move{
+
+
+.move{
   
-display: flex;
 width: 100%;
-height: auto;
-align-items: flex-end;
-background-image:
-url("../images/Temmypics.jpg") no-repeat no-repeat center center;  */
-/* } */
+height: 100%;
+background-image: url("../images/Temmypics.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+}
   
 
 
