@@ -41,8 +41,8 @@ html {
 
 body,
 p {
-  color: #4d5055;
-  font: 400 1rem/1.625rem "Open Sans", sans-serif;
+  color: #ffffff;
+  font: 15px "Open Sans", sans-serif;
 }
 
 h1 {
@@ -56,11 +56,12 @@ h1 {
   font-size: 20px;
 }
 h2 {
-  color: #24262a;
+  color: #031C32;
   font-weight: 700;
   font-size: 2rem;
   line-height: 2.5rem;
   font-family: "Poppins";
+   margin: 20px;
 }
 
 h3 {
@@ -69,6 +70,7 @@ h3 {
   font-size: 1.75rem;
   line-height: 2.25rem;
   font-family: "Poppins";
+ 
 }
 
 h4 {
@@ -88,7 +90,7 @@ h5 {
 }
 
 h6 {
-  color: #24262a;
+  color: #ffffff;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.375rem;
@@ -142,7 +144,7 @@ a:hover {
 }
 
 .bg-gray {
-  background-color: #f7f9fb;
+  background-color: #B3365B;
 }
 
 .section-divider {
@@ -173,18 +175,16 @@ a:hover {
 }
 
 .btn-solid-lg {
-
   border: 1px solid white;
-      border-radius: 5px;
-    background-color: #031C32;
+  border-radius: 5px;
+  background-color: #031c32;
   display: inline-block;
-    padding: 1.5rem 2rem;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 0;
-    text-decoration: none;
-    transition: all 0.2s;
-  
+  padding: 1.5rem 2rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .btn-solid-lg:hover {
@@ -213,21 +213,21 @@ a:hover {
 }
 
 .btn-outline-lg {
-    display: inline-block;
-    padding: 1rem 2rem;
-    border: 1px solid #ffffff;
-    border-radius: 5px;
-    background-color: transparent;
-    color: #ffff;
-    font-weight: 600;
-    font-size: 0.875rem;
-    line-height: 0;
-    text-decoration: none;
-    transition: all 0.2s;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #ffff;
+  font-weight: 600;
+  font-size: 0.875rem;
+  line-height: 0;
+  text-decoration: none;
+  transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-  background-color: #031C32;
+  background-color: #031c32;
   color: #ffffff;
   text-decoration: none;
 }
@@ -377,7 +377,7 @@ input[type="checkbox"] {
 /*     Navigation     */
 /**********************/
 .navbar {
-  background-color: #31d8ee;
+  background-color: #031C32;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0.875rem;
@@ -529,47 +529,43 @@ input[type="checkbox"] {
   padding-bottom: 5.5rem;
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
     /* url("../images/portrait.jpg") center center no-repeat; */
-  /* background-size: cover;
+/* background-size: cover;
   text-align: right; */
 
-
- .intro {
+.intro {
   margin-bottom: 1rem;
   color: #ffffff;
   font-size: 40px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   margin: auto;
-  
 }
 
+.intro text {
+  font-size: small;
+  color: white;
+}
 
 .col-sm-6 {
   text-align: center;
 }
 
-
-
 /* New trial for Frontend text */
 
-
 .move {
-  
-width: 100%;
-height: 100%;
-background-image: url("../images/temmytope.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center center;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/Temmynew.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
+.logocontainer {
+  height: unset;
 }
 /* .move .logo-image{
   text-align: center; */
 /* } */
-  
-
-
-
-
 
 .header .btn-solid-lg:hover {
   border: 1px solid #ffffff;
@@ -606,7 +602,7 @@ background-position: center center;
 
 .basic-1 .time {
   margin-bottom: 0.5rem;
-  color: #0b36a8;
+  color: #031C32;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 1.5rem;
@@ -616,10 +612,6 @@ background-position: center center;
 .basic-1 h6 {
   margin-bottom: 0.125rem;
 }
-
-
-
-
 
 /********************/
 /*     Services     */
@@ -935,7 +927,7 @@ background-position: center center;
 .copyright {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: #031C32;
+  background-color: #031c32;
   text-align: center;
 }
 
@@ -1037,6 +1029,10 @@ a:hover.back-to-top {
   }
   /* end of header */
 
+  .logocontainer{
+    height:100vh;
+  }
+
   /* Services */
   .basic-2 .text-box {
     padding-right: 2.125rem;
@@ -1081,7 +1077,7 @@ a:hover.back-to-top {
   /* Navigation */
   .navbar {
     /* padding-top: 1.75rem; */
-    background-color: transparent;
+    background-color: #031C32;
     box-shadow: none;
     transition: all 0.2s;
   }
@@ -1237,7 +1233,7 @@ a:hover.back-to-top {
 @media (min-width: 1200px) {
   /* General Styles */
   .h1-large {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 3rem;
   }
   /* end of general styles */
@@ -1256,9 +1252,9 @@ a:hover.back-to-top {
   /* end of header */
 
   /* About */
-  .basic-1 .text-container.first {
-    margin-right: 2rem;
-  }
+  /* .basic-1 .text-container.first {
+    /* margin-right: 2rem; */
+  } */
 
   .basic-1 .text-container.second {
     margin-right: 1rem;
@@ -1302,5 +1298,5 @@ a:hover.back-to-top {
     margin-left: 2.875rem;
   }
   /* end of extra pages */
-}
+/* } */
 /* end of min-width 1200px */
