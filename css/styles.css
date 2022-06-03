@@ -121,7 +121,7 @@ h6 {
 }
 
 a {
-  color: #4d5055;
+  color: #fff;
   text-decoration: underline;
 }
 
@@ -545,6 +545,11 @@ input[type="checkbox"] {
 .intro text {
   font-size: small;
   color: white;
+}
+
+.text-container{
+
+      padding: 3rem 0;
 }
 
 .col-sm-6 {
