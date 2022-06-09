@@ -498,7 +498,7 @@ input[type="checkbox"] {
   font-size: 0.75rem;
 }
 
-.navbar .-2x {
+.navbar .fa-stack-2x {
   color: #0b36a8;
   transition: all 0.2s ease;
 }
@@ -550,6 +550,7 @@ input[type="checkbox"] {
 .col-sm-6 {
   text-align: center;
 }
+
 
 /* New trial for Frontend text */
 
@@ -1086,8 +1087,20 @@ a:hover.back-to-top {
   background: inherit;
   color: #2259ec;
 }
+
 .icons:hover {
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
+ color: black;
+}
+
+.fa-brands:hover {
+   color: #031C32 !important;
+   
+}
+
+.trial:hover{
+
+  fill: #0b36a8;
 }
 @media (min-width: 992px) {
   /* General Styles */
